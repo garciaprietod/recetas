@@ -1,0 +1,187 @@
+<html>
+<head>
+    <title>Derivado de "Proyecto: libro de recetas"</title>
+    <meta charset="utf-8">
+    <style>
+        #header {
+            margin: auto;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        .nav {
+            width: 500px;
+            margin: auto;
+        }
+
+            .nav > li {
+                float: left;
+            }
+
+            .nav li a {
+                background-color: #000;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 12px;
+                display: block;
+            }
+
+                .nav li a:hover {
+                    background-color: #434343;
+                }
+
+            .nav li ul {
+                display: none;
+                position: absolute;
+                min-width: 140px;
+            }
+
+            .nav li:hover > ul {
+                display: block;
+            }
+
+            .nav li ul li {
+                position: relative;
+            }
+
+                .nav li ul li ul {
+                    right: -140px;
+                    top: 0px;
+                }
+
+        body {
+            font-family: sans-serif;
+            background-image: url('imagens/fondo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-size: 100px;
+            color: #060505;
+            font-family: sesamo;
+            text-shadow: 10px 10px 10px white;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-family: fantasy;
+            color: rgb(217, 91, 217);
+        }
+
+        #cosas {
+            margin: auto;
+            width: 50%;
+            height: 150px;
+            overflow: auto;
+            margin: 40px 0px 50px 700px;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 40px 0px 50px 700px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Ternera a la plancha </h1>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li>
+                <a href="">Carnes</a>
+                <ul>
+                    <li><a href="pollo.html">Pollo asado</a></li>
+                    <li><a href="solomillo.html">Solomillo a la pimienta</a></li>
+                    <li><a href="ternera.html">Ternera a la plancha</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Pescados</a>
+                <ul>
+                    <li><a href="lubina.html">Lubina</a></li>
+                    <li><a href="sardinas.html">Sardinas</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="">Pasta</a>
+                <ul>
+                    <li><a href="sopa.html">Sopa</a></li>
+                    <li><a href="espaguetis.html">Espaguetis</a></li>
+                    <li><a href="arroz.html">Arroz</a></li>
+                </ul>
+            </li>
+            <li><a href="karlos.html">Karlos</a></li>
+            <li><a href="https://www.casadellibro.com/libro-la-cocina-de-tu-vida-950-recetas-faciles-rapidas-y-saludables/9788408249191/12514499">Libro</a></li>
+        </ul>
+    </div>
+    <div id="cosas">
+        <ul>
+            <li><strong>Tiempo:</strong> 15min</li>
+            <li>
+                <strong>Material:</strong><br>
+                <ul>
+                    <li><a>Plancha</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredientes</th>
+                    <th></th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Entrecot de ternera</td>
+                    <th></th>
+                    <td> 1</td>
+                </tr>
+                <tr>
+                    <td>Sal</td>
+                    <th></th>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>ajo </td>
+                    <th></th>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Pimienta</td>
+                    <th></th>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>
+        <strong>Paso 1:</strong> Sal pimentamos el filete al gusto.<br />
+
+        <strong>Paso 2:</strong> Marcamos el filete vuelta y vueta en la pancha.<br />
+
+        
+    </p>
+    <p><em>Echa un vistazo a como se hace:</em></p>
+
+    <video style="display: block; margin: 0 auto; width: 420px; height: 340px;" controls="controls" preload="preload">
+        <source src="videos/ternera.mp4" type="video/mp4">
+        <source src="videos/ternera.ogg" type="video/ogg">
+        <source src="videos/ternera.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
