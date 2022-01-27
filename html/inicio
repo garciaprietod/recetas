@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        #header {
+            margin: auto;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        .nav {
+            width: 500px; 
+            margin: 0 auto;
+        }
+
+            .nav > li {
+                float: left;
+            }
+
+            .nav li a {
+                background-color: #000;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 12px;
+                display: block;
+            }
+
+                .nav li a:hover {
+                    background-color: #434343;
+                }
+
+            .nav li ul {
+                display: none;
+                position: absolute;
+                min-width: 140px;
+            }
+
+            .nav li:hover > ul {
+                display: block;
+            }
+
+            .nav li ul li {
+                position: relative;
+            }
+
+                .nav li ul li ul {
+                    right: -140px;
+                    top: 0px;
+                }
+
+        body {
+            background-image: url('imagens/fondo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        h1 {
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-size: 100px;
+            color: #060505;
+            font-family: sesamo;
+            text-shadow: 10px 10px 10px white;
+            margin-bottom: 50px;
+        }
+
+
+        p {
+            margin: auto;
+            width: 650px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #f819c4;
+            text-shadow: 10px 10px 10px white;
+            margin-bottom: 50px;
+        }
+        .foto{
+            display: inline;
+            line-height: 0;
+            font-size: 0;
+            width: 320px;
+            height: 240px;
+            margin-left: 100px;
+            margin-bottom: 40px;
+            float: left;
+            border: 100px;
+            box-shadow: 0 0 5px 5px #888;}
+    </style>
+</head>
+<body>
+
+    <h1>Libro de recetas</h1>
+    <p>
+        Esta es una web de recetas de cocina fáciles que podrás hacer en casa.<br />Espero que te diviertas y disfures haciendo estas maravillosas recetas.
+    </p>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li>
+                <a href="">Carnes</a>
+                <ul>
+                    <li><a href="pollo.html">Pollo asado</a></li>
+                    <li><a href="solomillo.html">Solomillo a la pimienta</a></li>
+                    <li><a href="ternera.html">Ternera a la plancha</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Pescados</a>
+                <ul>
+                    <li><a href="lubina.html">Lubina</a></li>
+                    <li><a href="sardinas.html">Sardinas</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="">Pasta</a>
+                <ul>
+                    <li><a href="sopa.html">Sopa</a></li>
+                    <li><a href="espaguetis.html">Espaguetis</a></li>
+                    <li><a href="arroz.html">Arroz</a></li>
+                </ul>
+            </li>
+            <li><a href="karlos.html">Karlos</a></li>
+            <li><a href="https://www.casadellibro.com/libro-la-cocina-de-tu-vida-950-recetas-faciles-rapidas-y-saludables/9788408249191/12514499">Libro</a></li>
+        </ul>
+    </div>
+    <audio style="display:block; margin: 0 auto" ;="" controls="controls" preload="preload">
+        <source src="sonidos/audio.mp3" type="audio/mp3">
+        <source src="sonidos/audio.ogg" type="audio/ogg">
+        <source src="sonidos/audio.wav" type="audio/wav">
+    </audio>
+
+    <img class="foto" src="imagens/arroz.jpg" alt="Imagen arroz" />
+    <img class="foto" src="imagens/sopa.jpg" alt="Imagen arroz" />
+    <img class="foto" src="imagens/lubina.jpg" alt="Imagen arroz" />
+    <img class="foto" src="imagens/pollo.jpg" alt="Imagen arroz" />
+    <img class="foto" src="imagens/ternera.jpg" alt="Imagen arroz" />
+    <img class="foto" src="imagens/solomillo.jpg" alt="Imagen arroz" />
+    <img class="foto" src="imagens/sardinas.jpg" alt="Imagen arroz" />
+    <img class="foto" src="imagens/espaguetis.jpg" alt="Imagen arroz" />
+
+
+
+</body>
+</html>
