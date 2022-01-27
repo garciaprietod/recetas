@@ -1,0 +1,192 @@
+<html>
+<head>
+    <title>Derivado de "Proyecto: libro de recetas"</title>
+    <meta charset="utf-8">
+    <style>
+
+        header {
+            padding: 5px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+            header h1 {
+                margin: 0px;
+                padding: 0px;
+            }
+
+        nav {
+            background-color: hotpink;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #000;
+            margin-bottom: 5px;
+        }
+
+            nav ul {
+                margin: 0px;
+                padding: 5px;
+                list-style-type: none;
+            }
+
+                nav ul li {
+                    display: inline;
+                }
+
+                    nav ul li a {
+                        padding-right: 5px;
+                        padding-left: 5px;
+                        color: #000;
+                        background-color: #E6E6E6;
+                    }
+
+        #article {
+            width: 60%;
+            float: left;
+            background-color: lightseagreen;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
+
+        aside {
+            float: right;
+            width: 38%;
+            background-color: orange;
+            margin-bottom: 5px;
+            
+        }
+
+        footer {
+            background-color:hotpink;
+            font-size: small;
+            padding: 5px;
+            clear: both;
+        }
+
+        .caja {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+        #todo {
+            margin: auto;
+            width: 700px;
+            background-color: lightslategrey;
+            border: 6px double black;
+        }
+    </style>
+    <head>
+        <div id="todo">
+            <meta charset="utf-8">
+
+            <title>Karlos Arguiñano</title>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="style.css">
+
+            
+    </head>
+
+    <body>
+       
+
+        <header>
+            <h1>Karlos Arguiñano</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="https://www.antena3.com/">Contacto</a></li>
+                <li><a href="https://www.casadellibro.com/libro-la-cocina-de-tu-vida-950-recetas-faciles-rapidas-y-saludables/9788408249191/12514499">Libro</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Karlos_Argui%C3%B1ano#:~:text=Karlos%20Argui%C3%B1ano%20Urkiola%20(Beas%C3%A1in%2C%206,Karlos%20Argui%C3%B1ano%20en%20tu%20cocina).">Información </a></li>
+            </ul>
+
+         
+
+            
+        </nav>
+
+       
+        <main>
+
+            
+            <article>
+                <div id="article">
+                    <h2>Biografía</h2>
+
+                    <p>
+                        Karlos Arguiñano Urkiola (Beasáin, 6 de septiembre de 1948) es un cocinero, presentador de televisión, actor, escritor y empresario español. Desde el 20 de septiembre de 2010, presenta en Antena 3 de Atresmedia; el programa Cocina abierta de Karlos Arguiñano</p>
+                        <h3>Familia</h3>
+<p>
+                        <strong>Padres:</strong> Jesús Arguiñano Arzoz y Pepi Urkiola<br />
+                        <strong>Cónyuge:</strong> María Luisa Ameztoy Alfaro; 71 años; (1974-presente) <br />
+                        <strong>Hijos:</strong> Eneko Arguiñano Ameztoy<br />
+                        Zigor Arguiñano Ameztoy<br />
+                        Karlos Arguiñano Ameztoy<br />
+                        Martín Arguiñano Ameztoy<br />
+                        Joseba Arguiñano Ameztoy<br />
+                        Amaia Arguiñano Ameztoy<br />
+                        María Arguiñano Ameztoy<br />
+                    </p>
+                    
+
+                    <h3>Premios</h3>
+
+                    <ol>
+                        <li>TP de Oro como Personaje de Año de la revista Teleprograma en 1992.</li>
+                        <li>Premio Ondas en la categoría de Programas Nacionales de Televisión en 1993.</li>
+                        <li>Antena de Oro en 2015.</li>
+                        <li>Estrella Michelín (1982-1998).</li>
+                        <li>Premio Nacional de Televisión en 2021.</li>
+                    </ol>
+                </div>
+
+            </article>
+
+
+            
+            <aside>
+                <h2>Volver a</h2>
+
+                <div id="header">
+                    <ul class="nav">
+                        <li><a href="inicio.html">Inicio</a></li>
+                        <li>
+                            <a href="">Carnes</a>
+                            <ul>
+                                <li><a href="pollo.html">Pollo asado</a></li>
+                                <li><a href="solomillo.html">Solomillo a la pimienta</a></li>
+                                <li><a href="ternera.html">Ternera a la plancha</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Pescados</a>
+                            <ul>
+                                <li><a href="lubina.html">Lubina</a></li>
+                                <li><a href="sardinas.html">Sardinas</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Pasta</a>
+                            <ul>
+                                <li><a href="sopa.html">Sopa</a></li>
+                                <li><a href="espaguetis.html">Espaguetis</a></li>
+                                <li><a href="arroz.html">Arroz</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="karlos.html">Karlos</a></li>
+                        <li><a href="https://www.casadellibro.com/libro-la-cocina-de-tu-vida-950-recetas-faciles-rapidas-y-saludables/9788408249191/12514499">Libro</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+        </main>
+
+      
+
+        <footer>
+            <p>Información sacada de <a href="https://es.wikipedia.org/wiki/Karlos_Argui%C3%B1ano#:~:text=Karlos%20Argui%C3%B1ano%20Urkiola%20(Beas%C3%A1in%2C%206,Karlos%20Argui%C3%B1ano%20en%20tu%20cocina).">Wikipedia </a>     :)</p>
+        </footer>
+
+    </body>
+</html></div>
